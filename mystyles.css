@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans';
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.nav-logo img{
+    /* width: 5rem; */
+    /* height: 5rem; */
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+nav .nav-menu .nav-items a{
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: black;
+   
+}
+ .nav-button button{
+	color: black;
+    margin-top: 15px;
+	background-color: none;
+	/* margin-right: 50px; */
+	border:none;
+	font-size: 16px;
+	cursor: pointer;
+	/*padding: 7px;*/
+	border-radius: 8px;
+	height: 38px;
+}
+.heading{
+	background-image: url('images/f5.jpg');
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-attachment: fixed; */
+	background-position: center;
+}
+
+
+.heading h1{
+	padding-top: 250px;
+	padding-left: 50px;
+	font-size: 4.2rem;
+	color: white;
+	font-weight: 600;
+}
+
+.heading h2{
+	padding-top: 30px;
+	padding-left: 120px;
+	color: white;
+	font-weight: 600;
+	font-size: 2.4rem;
+
+}
+h3{
+	text-align: center;
+	align-content: centre;
+	height: 50px;
+	font-weight: 100;
+	font-size: 2.4rem;
+	/*margin-top: 50px;*/
+
+}
+h5{
+	text-align: center;
+	color: red;
+	font-style: bold;
+}
+.services{
+	padding-top: 20px;
+}
+
+.heading button{
+
+ 
+	border-color: white;
+	border: 3px solid white;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 30px;
+	margin-top: 50px;
+	margin-left: 120px;
+	background-color: #4C4E52;
+	width: 300px;
+	border-radius: 8px;
+	border:white;
+}
+.heading button:hover{
+	color: gold;
+}
+
